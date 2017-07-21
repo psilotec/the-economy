@@ -32,7 +32,7 @@ class ExpenseInput extends Component {
 
         return (
             <div className="expense-input">
-                <Form layout="vertical" onSubmit={this.handleSubmit}>
+                <Form onSubmit={this.handleSubmit}>
                     <FormItem
                         validateStatus={expenseNameError ? 'error' : ''}
                         help={expenseNameError || ''}

@@ -3,9 +3,9 @@ import React from 'react';
 const ExpenseListItem = ({ name, date, cost}) => {
     return (
         <div className="expense-list-item">
-            <p>{name}</p>
-            <p>{date}</p>
-            <p>{cost}</p>
+            <div className="expense-list-item-content">{name}</div>
+            <div className="expense-list-item-content">{date}</div>
+            <div className="expense-list-item-content">{cost}</div>
         </div>
     );
 }
