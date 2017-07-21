@@ -13,6 +13,7 @@
 }
 
 .expense-list-item {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,6 +22,11 @@
     padding: 15px;
     font-weight: bold;
     background-color: #bbdefb;
+    transition: 0.5s ease all;
+}
+
+.expense-list-item:hover { 
+    background-color: #8aacc8;
 }
 
 .economy-total {
