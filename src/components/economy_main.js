@@ -4,15 +4,15 @@ import EconomyTotal from './economy_total';
 import ExpenseInput from './expense_input';
 
 class EconomyMain extends Component {
-    render() {
-        return (
-            <div>
-                <ExpenseInput />
-                <EconomyTotal />
-                <ExpenseList />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <ExpenseInput />
+        <EconomyTotal />
+        <ExpenseList />
+      </div>
+    );
+  }
 }
 
 export default EconomyMain;
