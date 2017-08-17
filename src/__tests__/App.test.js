@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
-import Header from './components/header';
-import EconomyMainContainer from './containers/economy_main_container';
+import App from '../App';
+import Header from '../components/header';
+import EconomyMainContainer from '../containers/economy_main_container';
 
 it('renders without crashing', () => {
   shallow(<App />);
